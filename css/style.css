@@ -1,0 +1,47 @@
+body{
+/*background-color: yellow;*/
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+opacity: 0.9
+height: 1000px;
+width: 100%;
+}
+
+header(
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  padding-left: 10px;
+  height: 69px;
+  width: 500px;
+  border-bottom: 5px solid seashell;
+  background-color: black;
+  )
+
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  align-self: flex-end;
+}
+
+.mission{
+  display:flex;
+  flex-direction: column;
+  background-image: url("../resources/images/img-bedford-bizarre.jpg" alt="Jar of tea leaves" height= "700px" width="1000px">);
+  /*background-color: lightyellow;*/
+  height: 700px;
+  width: 1000px;
+  color: black;
+  /*justify-content: center;*/
+}
+
+.mission statement{
+  display: flex;
+  flex-direction: row;
+  color: seashell;
+  height: 75px;
+  /*background-color: black;*/
+  background-color: lightblue;
+  justify-content: center;
+}
