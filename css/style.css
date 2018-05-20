@@ -1,47 +1,84 @@
 body{
-/*background-color: yellow;*/
+background-color: white;
 font-family: Helvetica;
 font-size: 22px;
 color: seashell;
-opacity: 0.9
-height: 1000px;
-width: 100%;
+opacity: 0.9;
+height: 1200px;
+width: 2141;
 }
 
-header(
+header{
   display: flex;
   flex-direction: row;
   position: fixed;
   padding-left: 10px;
   height: 69px;
-  width: 500px;
+  width: 1200px;
   border-bottom: 5px solid seashell;
   background-color: black;
-  )
+}
+
+  .logo{
+    <img src="./resources/images/img-story-main.png" alt="White cat">
+    display:flex;
+    flex-direction: row;
+    flex-grow: 1;
+    color: red;
+  }
 
 nav span{
-  display: inline-block;
-  text-decoration: underline;
+  /*display: inline-block;*/
+  flex-direction: row;
   align-self: flex-end;
+  align-self: center;
+  color: red;
 }
 
-.mission{
+.mainContainer{
   display:flex;
   flex-direction: column;
-  background-image: url("../resources/images/img-bedford-bizarre.jpg" alt="Jar of tea leaves" height= "700px" width="1000px">);
-  /*background-color: lightyellow;*/
-  height: 700px;
-  width: 1000px;
-  color: black;
-  /*justify-content: center;*/
+  margin-top: 0;
+  width: 1200px;
+  justify-content: center;
 }
 
-.mission statement{
+
+.mainMissionContainer{
+  display: flex;
+  background-image: url("../resources/images/img-bedford-bizarre");
+  /*background-color: lightyellow;*/
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+}
+
+.mission background-image{
+  /*background-image: url("../resources/images/img-bedford-bizarre");*/
+  /*display: flex;*/
+  height: 700px;
+  width 1000px;
+}
+
+.missionStatement{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 1200px;
+  background-color: black;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.missionStatement h2, h4{
   display: flex;
   flex-direction: row;
-  color: seashell;
-  height: 75px;
-  /*background-color: black;*/
-  background-color: lightblue;
   justify-content: center;
+  align-content: space-between;
+  color: white;
+}
+
+footer{
+  background-color: black;
+  color:wihite;
 }
