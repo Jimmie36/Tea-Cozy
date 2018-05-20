@@ -20,7 +20,6 @@ header{
 }
 
   .logo{
-    <img src="./resources/images/img-story-main.png" alt="White cat">
     display:flex;
     flex-direction: row;
     flex-grow: 1;
